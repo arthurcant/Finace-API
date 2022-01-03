@@ -1,20 +1,25 @@
+# Welcome! 
 
+Hello, thanks for checking out this repository!
 
-## requests
+this's an API of finances made with nodejs. I also used express and uuid library.
 
-- [x] Should be possible create an account 
-- [x] Should be possible search the statement bank of the client
-- [] Should be possible maker a deposit
-- [] Should be possible maker a withdraw
-- [] Should be possible search the statement bank of client per date
-- [] Should be possible update datas of the client's account 
-- [] Should be possible get datas of the client's account
-- [] Should be possible delete a account
+## requirements
+
+- [] Should be possible to create an account 
+- [] Should be possible to search the statement bank of the client
+- [] Should be possible to maker a deposit
+- [] Should be possible to maker a withdraw
+- [] Should be possible to search the statement bank of client per date
+- [] Should be possible to update data of the client's account 
+- [] Should be possible to get data of the client's account
+- [] Should be possible to delete an account
+- [] Should be possible to get the balance of an account
 
 ## Rules of business
 
-- [x] Shouldn't be possible register an account with cpf already existed.
-- [x] Shouldn't be possible maker deposit in a account that doesn't exist.
-- [x] Shouldn't be possible search statement in an account that doesn't exist.
-- [] Shouldn't be possible erase a account that doesn't exist.
-- [] Shouldn't be possible maker a withdraw when the balance is insufficient
+- [] Shouldn't be possible to register an account with cpf (or another way you used to identify a person in your country) already existed.
+- [] Shouldn't be possible to maker a deposit in an account that doesn't exist.
+- [] Shouldn't be possible to search statement in an account that doesn't exist.
+- [] Shouldn't be possible to maker a withdraw when the balance is insufficient
+- [] Shouldn't be possible to erase an account that doesn't exist.
