@@ -3,6 +3,14 @@
 Hello, thanks for checking out this repository!
 
 this's an API of finances made with nodejs. I also used express and uuid library.
+
+## How to run it ?
+
+Only run in the terminal the following command:
+
+> npm install
+
+
 ## requirements
 
 - [x] Should be possible to create an account 
